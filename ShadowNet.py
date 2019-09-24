@@ -150,15 +150,6 @@ class ShadowNet(nn.Module):
         self.conv7 = conv3x3(16, 1)
 
 
-
-
-
-
-
-
-
-
-        
         
     def _make_layer(self, block, planes, blocks, stride=1):
         downsample = None
